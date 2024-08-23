@@ -12,7 +12,7 @@ Ore-Mine-Pool是为OREV2实现的矿池，使矿工更容易挖矿。与 ore-cli
 3. chmod +x start.sh
 4. 修改脚本中的solana钱包地址，用于接收ore，需要用户开启ore帐户（考虑私钥安全，所以用户自己创建）。
 5  screen -S ore-miner
-6. ./start.sh  
+6. ./start.sh  wallet_address
 ```
 
 
