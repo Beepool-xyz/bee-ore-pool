@@ -10,11 +10,15 @@ Ore-Mine-Pool是为OREV2实现的矿池，使矿工更容易挖矿。与 ore-cli
 1. git clone https://github.com/orepool/ore-mine-pool.git
 2. cd ore-mine-pool
 3. chmod +x start.sh
-4. 修改脚本中的solana钱包地址，用于接受ore，需要用户开启ore帐户（考虑私钥安全，所以用户自己创建）。
+4. 修改脚本中的solana钱包地址，用于接收ore，需要用户开启ore帐户（考虑私钥安全，所以用户自己创建）。
 5  screen -S ore-miner
-6. ./start.sh
+6. ./start.sh  
 ```
 
+
+**PS**： 开户
+
+只要钱包里面有ore就是已经开通了帐户，如果不确定是否开通可以上 [jup](juporeoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp)上兑换0.01ore，则会自动开通帐户。
 
 * ## 工作原理
 
