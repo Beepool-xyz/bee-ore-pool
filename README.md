@@ -13,7 +13,6 @@ Ore-Mine-Pool是为OREV2实现的矿池，使矿工更容易挖矿。与 ore-cli
 4. 修改脚本中的solana钱包地址，用于接收ore，需要用户开启ore帐户（考虑私钥安全，所以用户自己创建）。
 5  screen -S ore-miner
 6. ./start.sh wallet_address  // Linux启动启动方式
-7  start-win.bat <wallet_address> // 在windows命令行中输入，windows启动方式
 ```
 
 
@@ -82,4 +81,4 @@ Ore-Mine-Pool是为OREV2实现的矿池，使矿工更容易挖矿。与 ore-cli
 通过这种方案，我们确保了用户可以专注于挖矿，而无需过多关注 Gas 费用，提升了挖矿的整体体验和效率。
 
 
-矿池费：15%（我们支付gas费、服务器维护费以及程序维护和更新费用）。
+矿池费：抵扣gas后，进行15%分成(我们支付gas费、服务器维护费以及程序维护和更新费用）。
