@@ -8,7 +8,7 @@ fi
 
 WALLET_ADDRESS=$1
 
-COMMAND="./mine --url=http://orepool.xyz:8080 --address=$WALLET_ADDRESS"
+COMMAND="./mine-linux --url=http://orepool.xyz:8080 --address=$WALLET_ADDRESS"
 
 
 # 无限循环，除非明确退出
