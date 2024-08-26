@@ -18,7 +18,7 @@ Ore-Mine-Pool是为OREV2实现的矿池，使矿工更容易挖矿。与 ore-cli
 
 **PS**： 开户
 
-只要钱包里面有ore就是已经开通了帐户，如果不确定是否开通可以上 [jup](juporeoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp)上兑换0.01ore，则会自动开通帐户。
+只要钱包里面有ore就是已经开通了帐户，如果不确定是否开通可以上 [jup](https://jup.ag/swap/SOL-oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp)上兑换0.01ore，则会自动开通帐户。
 
 
 * ## 工作原理
@@ -82,3 +82,7 @@ Ore-Mine-Pool是为OREV2实现的矿池，使矿工更容易挖矿。与 ore-cli
 
 
 矿池费：抵扣gas后，进行15%分成(我们支付gas费、服务器维护费以及程序维护和更新费用）。
+
+* ## 联系我们
+
+[电报](t.me/minenodepool)
