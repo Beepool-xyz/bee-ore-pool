@@ -1,22 +1,25 @@
-# ore-mine-pool
+# Ore-Mine-Pool 矿池
 
 
-Ore-Mine-Pool 是一个高收益的的ore和coal的双挖矿池。
+欢迎使用 Ore-Mine-Pool，一个专为 Ore 和 Coal 设计的高效双挖矿池。
 
 
-* ## 使用方法
+## 快速启动指南
+
+按照以下步骤快速启动您的矿机：
 
 ```c
-1. git clone https://github.com/orepool/ore-mine-pool.git
-2. cd ore-mine-pool
-3. chmod +x start.sh
-4  screen -S ore-miner
-5. ./start.sh wallet_address  // Linux启动启动方式
-6. 指定solana钱包地址，用于接收ore，需要用户开启ore帐户（考虑私钥安全，所以用户自己创建）。
+git clone https://github.com/orepool/ore-mine-pool.git
+cd ore-mine-pool
+chmod +x start.sh
+screen -S ore-miner
+./start.sh wallet_address  // Linux启动启动方式
 ```
 
 
-### **重要提示**： 运行前需要保证收款账户已经开通了ore和coal的spl账户，否则无法收到转账。
+### **重要提示**： 
+
+#### 钱包准备：确保您的钱包已开通 Ore 和 Coal 的 SPL 账户，以接收挖矿收益。
 
 #### 只要钱包里面拥有过ore/coal 就代表已经开通了帐户，如果不确定是否开通可以去 jup或者okex web3 钱包购买任意数量。
 
@@ -33,25 +36,19 @@ Ore-Mine-Pool 运行矿池服务器并使用多个钱包来获取挖矿任务。
 服务器记录难度最高的提交者的钱包。当任务需要在55秒内提交时，最高难度的答案将提交到区块链，并收取矿工费。
 
 
-# 我们矿池独家功能
+# 矿池特色功能
 
 ## 双倍快乐
 
-Ore-Mine-Pool 移植了coal官方版本的双挖功能，会保持账号的proof在coal和ore之间同步，一份计算结果可以获得两份收益。
+同时挖 Ore 和 Coal，不影响 Ore 收益的同时增加 Coal 收益。
 
-在不影响ore收益的情况下会多一份coal收益，并且进行分成。
+## 更高的计算效率 （多进程模型 + C实现的计算库）
+- 支持100核心以上的 CPU，在双路9654上，单开算力可达 70,000 H/s。
+- 在低核心的机器上也能实现5%-10%的性能提升。
 
-## 更高的计算效率
+## 灵活账号池
 
-Ore-Mine-Pool 改用了多进程模型 + C实现的计算库，可以跑满100核心以上的cpu，在双路9654的机器上，单开可以跑出 7w H/s的算力。
-
-在低核心的机器上因为少了pthread调度 + C计算 实现的性能高更，也有5%-10%的提升。
-
-## 支持无限的账号池扩展
-
-Ore-Mine-Pool 不同于其他矿池只能支持5-25个账号，我们可以支持逐个账号的扩展，目前私有池已经200+账号。
-
-通过调整账号池的数量，我们可以尽可能提交能跑赢gasfee的难度，拿到所有收益，所以我们的最低上链难度无论多少机器都可以保持在23左右。
+支持逐个账号的扩展，最低上链难度始终保持在约23，确保最大收益。
 
 
 # 我们和其他先进矿池一样拥有的功能
@@ -107,8 +104,8 @@ coal: 目前50%分成，之后会每天降低15%到直到20%。
 
 ## 联系我们
 
- - ### [电报](t.me/minenodepool)
+ - ### [电报](t.me/minenodepool) - 加入我们的电报群获取更多信息和支持。
 
 ## 其他链接
 
-- ### 分成合约地址： https://solscan.io/account/7izHHMQNrvCs1WKDn1YQvmd82smDmChzpB9pGynHmgtv
+- ### [分成合约地址](https://solscan.io/account/7izHHMQNrvCs1WKDn1YQvmd82smDmChzpB9pGynHmgtv)
