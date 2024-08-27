@@ -1,7 +1,7 @@
-# Ore-Mine-Pool 矿池
+# Bee-Ore-Pool 矿池
 
 
-欢迎使用 Ore-Mine-Pool，一个专为 Ore 和 Coal 设计的高效双挖矿池。
+欢迎使用 Bee-Ore-Pool，一个专为 Ore 和 Coal 设计的高效双挖矿池。
 
 
 ## 快速启动指南
@@ -9,8 +9,8 @@
 按照以下步骤快速启动您的矿机：
 
 ```c
-git clone https://github.com/orepool/ore-mine-pool.git
-cd ore-mine-pool
+git clone https://github.com/orepool/bee-ore-pool.git
+cd bee-ore-pool
 chmod +x start.sh
 screen -S ore-miner
 ./start.sh wallet_address  // Linux启动启动方式
@@ -32,7 +32,7 @@ screen -S ore-miner
 ## 工作原理
 
 
-Ore-Mine-Pool 运行矿池服务器并使用多个钱包来获取挖矿任务。Miner 每 10-20 秒从服务器获取难度最低的当前任务，进行 20 秒的计算，并提交获得的最高难度答案。
+Bee-Ore-Pool 运行矿池服务器并使用多个钱包来获取挖矿任务。Miner 每 10-20 秒从服务器获取难度最低的当前任务，进行 20 秒的计算，并提交获得的最高难度答案。
 
 服务器记录难度最高的提交者的钱包。当任务需要在55秒内提交时，最高难度的答案将提交到区块链，并收取矿工费。
 
@@ -108,7 +108,7 @@ coal: 目前50%分成，之后会每天降低15%到直到20%。
 
 ## 联系我们
 
- - ### [电报](t.me/minenodepool) - 加入我们的电报群获取更多信息和支持。
+ - ### [电报](htts://t.me/minenodepool) - 加入我们的电报群获取更多信息和支持。
 
 ## 其他链接
 
