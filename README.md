@@ -112,4 +112,5 @@ coal: 目前35%分成，之后会每天降低15%到直到20%。
 
 ## 其他链接
 
-- ### [分成合约地址](https://solscan.io/account/7izHHMQNrvCs1WKDn1YQvmd82smDmChzpB9pGynHmgtv)
+- ### [合约地址](https://solscan.io/account/7izHHMQNrvCs1WKDn1YQvmd82smDmChzpB9pGynHmgtv)
+- ### [数据面板](https://dune.com/links789/ore-mine-pool)
