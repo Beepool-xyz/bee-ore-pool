@@ -10,6 +10,7 @@ WALLET_ADDRESS=$1
 
 COMMAND="./mine-linux --url=http://orepool.xyz:8080 --address=$WALLET_ADDRESS"
 
+trap "echo 'Script interrupted'; exit" SIGINT
 
 # 无限循环，除非明确退出
 while true; do
