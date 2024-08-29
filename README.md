@@ -6,14 +6,14 @@
 
 ## 快速启动指南
 
-按照以下步骤快速启动您的矿机：
+### 按照以下步骤快速启动您的矿机：
 
 ```bash
 git clone https://github.com/orepool/bee-ore-pool.git
 cd bee-ore-pool
 ```
 
-开始运行 （wallet_address 更改为你的钱包地址）
+### 开始运行 （wallet_address 更改为你的钱包地址）
 
 Linux启动启动方式
 ```bash
@@ -22,7 +22,7 @@ Linux启动启动方式
 
 m系列芯片的mac启动
 ```bash
-././start-mac.sh wallet_address 
+./start-mac.sh wallet_address 
 ```
 
 
@@ -111,7 +111,7 @@ Bee-Ore-Pool 运行矿池服务器并使用多个钱包来获取挖矿任务。M
 ----
 
 # 矿池费：
-ore: 抵扣gas后，进行15%分成(服务器维护费以及程序维护和更新费用）。
+ore: 抵扣gas后，进行15%分成(服务器维护费 | 程序维护和更新费用 | 补贴部分低难度交易的gas亏空）。
 
 coal: 全部给到用户，不收取抽成。
 
