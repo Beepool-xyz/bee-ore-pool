@@ -8,12 +8,21 @@
 
 按照以下步骤快速启动您的矿机：
 
-```c
+```bash
 git clone https://github.com/orepool/bee-ore-pool.git
 cd bee-ore-pool
-chmod +x start.sh
-screen -S ore-miner
-./start.sh wallet_address  // Linux启动启动方式
+```
+
+开始运行 （wallet_address 更改为你的钱包地址）
+
+Linux启动启动方式
+```bash
+./start.sh wallet_address 
+```
+
+m系列芯片的mac启动
+```bash
+././start-mac.sh wallet_address 
 ```
 
 
