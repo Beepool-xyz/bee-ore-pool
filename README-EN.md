@@ -1,8 +1,13 @@
 # Bee-Ore-Pool Mining Pool
 
 
-Welcome to Bee-Ore-Pool, a high-efficiency dual mining pool designed specifically for Ore and Coal.
+Welcome to Bee-Ore-Pool, a high-efficiency dual mining pool designed specifically for Ore and Coal. [中文版本](https://github.com/orepool/bee-ore-pool/blob/master/README.md)
 
+## Bee-Ore-Pool Average Earnings
+
+- September 10, 2024: With a hashrate of 43MH/s, the 24-hour output was 110 ORE, with an average yield of 2.55 ORE per 1MH/s.
+
+Based on recent data, the pool’s yield per 1MH/s is approximately 2.2 to 3 ORE, depending on the total ORE network hashrate.
 
 ## Quick Start Guide
 

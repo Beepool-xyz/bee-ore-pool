@@ -1,8 +1,13 @@
 # Bee-Ore-Pool 矿池
 
 
-欢迎使用 Bee-Ore-Pool，一个专为 Ore 和 Coal 设计的高效双挖矿池。
+欢迎使用 Bee-Ore-Pool，一个专为 Ore 和 Coal 设计的高效双挖矿池。[English Version](https://github.com/orepool/bee-ore-pool/blob/master/README-EN.md)
 
+## Bee-Ore-Pool 平均收益
+
+- 2024年9月10号：43MH/S算力24小时产出110个ORE，平均每百万的算力产出为2.55个ORE。
+
+根据最近的数据统计，矿池每百万的算力大概为2.2～3ORE之间(受ORE整体算力影响)。
 
 ## 快速启动指南
 
