@@ -66,6 +66,12 @@ Bee-Ore-Pool 运行矿池服务器并使用多个钱包来获取挖矿任务。M
 
 支持逐个账号的扩展，最低上链难度始终保持在约23，确保最大收益。
 
+## 支持qubic与ore调度双挖
+
+新增动态账号池功能，使qubic与ore调度更加流畅，最大化你的机器收益。
+
+[简单的说明和示例](https://github.com/orepool/bee-ore-pool/blob/master/qubicOrOre.md)
+
 ---
 # 和其他先进矿池一样拥有的功能
 
