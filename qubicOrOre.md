@@ -26,5 +26,9 @@ ool.xyz:8080  --address=3e4CUVZohTir3sKW7ueZuf2ec512km2BfekyxKrVai"
 
 * 飞行表运行示例
 
+![images](https://github.com/orepool/bee-ore-pool/tree/master/images/rq-os.png)
 
-配置参数的时候增加 `--idle-command "/home/ub/work/mine --url=http://orepool.xyz:8080  --address= ddd"`即可。同样记得修改ore锄头路径与钱包地址。
+配置参数的时候增加 `--idle-command "/home/ub/work/mine --url=http://orepool.xyz:8080  --address=3e4CUVZohTir3sKW7ueZuf2ec512km2BfekyxKrVai"`即可。同样记得修改ore锄头路径与钱包地址。
+
+
+
