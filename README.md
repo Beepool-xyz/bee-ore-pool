@@ -14,7 +14,7 @@
 ### 按照以下步骤快速启动您的矿机：
 
 ```bash
-git clone https://github.com/orepool/bee-ore-pool.git
+git clone https://github.com/Beepool-xyz/bee-ore-pool.git
 cd bee-ore-pool
 ```
 

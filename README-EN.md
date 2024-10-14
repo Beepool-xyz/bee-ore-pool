@@ -14,7 +14,7 @@ Based on recent data, the pool’s yield per 1MH/s is approximately 2.2 to 3 ORE
 ### Follow these steps to quickly start your mining
 
 ```bash
-git clone https://github.com/orepool/bee-ore-pool.git
+git clone https://github.com/Beepool-xyz/bee-ore-pool.git
 cd bee-ore-pool
 ```
 
