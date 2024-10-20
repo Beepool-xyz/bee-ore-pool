@@ -30,6 +30,16 @@ m系列芯片的mac启动
 ./start-mac.sh wallet_address 
 ```
 
+Docker启动
+```bash
+sudo docker pull links789/beeoremine:2.0.7
+sudo docker run -d --name orework -e WALLET_ADDRESS=3e4CUVZohTirWueZufZd2ec512km2BfekyxKrVai --restart unless-stopped beeoremine:2.0.7
+```
+
+windows环境推荐使用docker运行
+
+windows因为机制原因超过64核需要多开才能跑满，相对会比较麻烦
+
 
 ### **重要提示**： 
 
